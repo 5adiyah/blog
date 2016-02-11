@@ -32,6 +32,10 @@ a:hover{
   font-weight: 400;
 }
 
+.posts a{
+  color: #0FA0CE;
+}
+
 .logo {
     position: fixed;
     top: 50px;
