@@ -1,0 +1,114 @@
+.center {
+  text-align: center;
+}
+
+.white{
+  color: #fff;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.darkpurple {
+  color: #140023
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover{
+  color: #0FA0CE;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.logo {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    margin: 0;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: bounce;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-name: bounce;
+}
+
+.logo a {
+    background: #0FA0CE;
+    color: #fff;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-weight: 700;
+    height: 90px;
+    width: 90px;
+    font-size: 1.5em;
+    border-radius: 75px;
+    display: inline-block;
+    text-align: center;
+    line-height: 90px;
+}
+
+.posts{
+  display: block;
+  margin-top: 100px;
+}
+
+.posts ul{
+  list-style: none;
+}
+
+.title {
+  font-family: 'Slabo 27px', serif;
+  text-decoration: underline;
+  line-height: 2px;
+  font-weight: 600;
+  font-size: 1.8em;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+.date {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 4px;
+  font-weight: 200;
+  letter-spacing: 10px;
+  color: #0FA0CE;
+}
+
+.back {
+    /*position: fixed;
+    right: 50px;*/
+    margin: 0;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: bounce;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-name: bounce;
+}
+
+.back a {
+    background: #0FA0CE;
+    color: #fff;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-weight: 700;
+    height: 30px;
+    width: 50px;
+    font-size: 1em;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+}
