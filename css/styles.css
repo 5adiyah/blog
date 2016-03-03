@@ -1,118 +1,109 @@
-.center {
-  text-align: center;
+
+.header {
+  margin-top: -1.5%;
 }
 
-.white{
-  color: #fff;
+.center {
+  text-align: center;
 }
 
 .strong {
   font-weight: bold;
 }
 
-.darkpurple {
-  color: #140023
+.white{
+  color: white;
+}
+
+.subsitle p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 6px;
+}
+
+.whitebox {
+  background-color: #fafafa;
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+}
+
+.topbar{
+  background-color: #555555;
+  width: 100%;
+  height: 40px;
+  margin-top: 2%;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.topbar p {
+  color: #A8A8A9;
+  font-family: serif;
+  font-size: 100px;
+  letter-spacing: -12px;
+  line-height: 0;
 }
 
 body {
+  background-color: #D0B7B6;
+  color: #140023;
+}
+
+.button:hover{
+  background-color: #EE9285;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.button {
+  margin-left: 3%;
+  border: none;
+  width: 140px;
+  display: inline-block;
+}
+
+hr {
+  color: #EE9285;
+  border: 2px solid #EE9285;
+}
+
+
+.button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+  background-color: #140023;
+  border-color: #140023;
+}
+
+.aboutbox{
+  background-color: #FFDAB5;
+  padding: 3% 3% 2% 3%;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  letter-spacing: 1px;
-  color: #000;
+  color: #555555;
 }
 
-a {
-  text-decoration: none;
-  color: #000;
+.maincontent{
+  padding: 3%;
+  background-color: #fff;
 }
 
-a:hover{
-  color: #0FA0CE;
-  text-decoration: underline;
-  font-weight: 400;
+.maincontent .subsitle{
+  padding-bottom: 2%;
 }
 
-.posts a{
-  color: #0FA0CE;
+.box{
+  background-color: rgba(207, 181, 180, 0.41);
+  border-radius: 3px;
+  height: 220px;
+  line-height: 220px;
+  margin-bottom: 2%;
 }
 
-.logo {
-    position: fixed;
-    top: 50px;
-    right: 50px;
-    margin: 0;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-name: bounce;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    -webkit-animation-name: bounce;
+.peach{
+  background-color: #FFBEB5;
 }
 
-.logo a {
-    background: #0FA0CE;
-    color: #fff;
-    text-decoration: none;
-    text-transform: lowercase;
-    font-weight: 700;
-    height: 90px;
-    width: 90px;
-    font-size: 1.5em;
-    border-radius: 75px;
-    display: inline-block;
-    text-align: center;
-    line-height: 90px;
+.blue{
+  background-color: #81AAB4;
 }
 
-.posts{
-  display: block;
-  margin-top: 100px;
-}
-
-.posts ul{
-  list-style: none;
-}
-
-.title {
-  font-family: 'Slabo 27px', serif;
-  text-decoration: underline;
-  line-height: 2px;
-  font-weight: 600;
-  font-size: 1.8em;
-  letter-spacing: 3px;
-  color: #000;
-}
-
-.date {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 4px;
-  font-weight: 200;
-  letter-spacing: 10px;
-  color: #0FA0CE;
-}
-
-.back {
-    /*position: fixed;
-    right: 50px;*/
-    margin: 0;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-name: bounce;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    -webkit-animation-name: bounce;
-}
-
-.back a {
-    background: #0FA0CE;
-    color: #fff;
-    text-decoration: none;
-    text-transform: lowercase;
-    font-weight: 700;
-    height: 30px;
-    width: 50px;
-    font-size: 1em;
-    display: inline-block;
-    text-align: center;
-    line-height: 30px;
+.green{
+  background-color: #92CEA2;
 }
